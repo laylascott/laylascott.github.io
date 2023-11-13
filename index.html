@@ -5,8 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layla</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.9/lottie.min.js"></script>
+
 </head>
 <body>
-    <img src="iphone.png" id="iphone">
+    <div id="animation-container">
+
+    </div>
+<script>
+  // Replace 'your-animation.json' with the path to your exported Rotato animation JSON file.
+  const animationData = 'animation.json';
+
+  // Get a reference to the container div.
+  const container = document.getElementById('animation-container');
+
+  // Configure and play the animation.
+  const animation = lottie.loadAnimation({
+    container: container, // The DOM element to render the animation.
+    renderer: 'svg',      // Choose 'svg', 'canvas', or 'html' as the renderer.
+    loop: true,           // Set to true if you want the animation to loop.
+    autoplay: true,       // Set to true to start the animation immediately.
+    path: animationData,  // Path to your Rotato animation JSON file.
+  });
+</script>
+
 </body>
 </html>
