@@ -1,10 +1,12 @@
-
-#iphone {
+body{
+    margin: 0;
+    background: darkgrey;
+}
+#video {
     display: block;
     margin-top: 2.5vh;
     margin-bottom: 2.5vh;
     margin-left: auto;
     margin-right: auto;
-    height: 90vh;
-   
+    height: 100vh;
 }
