@@ -3,29 +3,56 @@ body {
     background-color: #D3E0FC;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+
+.column-left, .column-right {
+    float: left;
+    padding: 10px;
+}
+
+.column-left{
+    margin-left: 15%;
+    width: 25%;
+}
+
+.column-right{
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 75%;
+    
+}
+
 h1 {
-    text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     color: #2c3e66;
     letter-spacing: 1.5px;
     font-weight: 800;
+    text-align: center;
 }
-
 
 
 h2 {
     font-family: 'Cairo', sans-serif;
     font-weight: 400;
     color: #2c3e66;
-    text-align: center;
 }
 
 p {
     font-family: 'Bitter', serif;
     font-weight: 500;
-    width: 25%;
     line-height: 32.5px;
-    margin: auto;
+    color: #313236;
 }
 
 hr {
