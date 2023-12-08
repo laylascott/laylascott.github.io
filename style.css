@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #D3E0FC;
+    background-color: #c5d9e9;
 }
 
 * {
@@ -35,7 +35,8 @@ img {
 
 h1 {
     font-family: 'Josefin Sans', sans-serif;
-    color: #2c3e66;
+    color: #2b5b80
+    ;
     letter-spacing: 1.5px;
     font-weight: 800;
     text-align: center;
@@ -45,17 +46,19 @@ h1 {
 h2 {
     font-family: 'Cairo', sans-serif;
     font-weight: 400;
-    color: #2c3e66;
+    color: #2b5b80
+    ;
 }
 
 p {
     font-family: 'Bitter', serif;
     font-weight: 500;
     line-height: 32.5px;
-    color: #313236;
+    color: #253948;
 }
 
 hr {
-    border-top: 2.5px solid #7d9cde;
+    border-top: 2.5px solid #3e83b8
+    ;
     background-color: #D3E0FC;
 }
