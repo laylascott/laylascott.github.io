@@ -65,7 +65,7 @@ h1 {
 
 h2 {
     font-family: 'Cairo', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     color: #2b5b80
     ;
 }
@@ -90,23 +90,26 @@ hr {
     font-family: 'Cairo', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    
+    font-size: 16px;
+    letter-spacing: 0px;
 }
 
-.nav ul a{
+.nav ul li a{
     text-decoration: none;
     color: #2b5b80;
     background-color: #d3dee7;
     border-radius: 20px;
     padding: 6px;
+    
 }
 
-.nav ul a:hover{
+.nav ul li.active a, .nav ul li a:hover {
     color: #d3dee7;
     background-color: #2b5b80;
     border-radius: 100px;
     padding: 6px;
 }
+
 
 
 .header-mobile{
@@ -125,13 +128,26 @@ hr {
     }
 
     .header-mobile h1{
-        font-size: 16px;
+        font-size: 20px;
     }
 
     #menu{
         width: 30px;
     }
+    #icon{
+        width: 15px;
+    }
     h2{
         font-size: 16px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .column-right, .column-left{
+        float: none;
+    }
+    .column-right{
+        padding-left: 25px;
+        width: 100%;
     }
 }
