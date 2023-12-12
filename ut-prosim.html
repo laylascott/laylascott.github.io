@@ -21,8 +21,8 @@
         <img src="icons/menu.png" id="menu">
         <div class="nav">
             <ul class="hidden"> 
-                <li class="active"><a href="index">About Me</a></li>
-                <li><a href="ut-prosim">Ut Prosim</a></li>
+                <li ><a href="index">About Me</a></li>
+                <li class="active"><a href="ut-prosim">Ut Prosim</a></li>
                 <li><a href="">Projects</a></li>
                 <li><a href="">Resume</a></li>
             </ul>
@@ -46,7 +46,17 @@
         </div>
       </div>
     
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var menuIcon = document.getElementById('menu');
+            var nav = document.querySelector('.nav ul');
     
+            menuIcon.addEventListener('click', function() {
+                // Toggle the 'show' class on the navigation menu
+                nav.classList.toggle('show');
+            });
+        });
+    </script>
 
 </body>
 </html>
