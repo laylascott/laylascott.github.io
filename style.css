@@ -151,9 +151,17 @@ hr {
         width: 100%;
     }
 
+     .column-left{
+        width: 100%;
+    }
+
+    .contact{
+        display: none;
+    }
+
     .nav ul{
         list-style: none;
-        display: block;
+        display:flexbox;
         margin: auto;
         font-family: 'Cairo', sans-serif;
         font-weight: 700;
