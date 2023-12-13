@@ -166,6 +166,10 @@ nav .hamburger.active .bar {
     color: var(--text-color)
 }
 
+p a{
+    color: var(--para-text);
+}
+
 .left p{
     width: 90%;
     font-size: 16px;
