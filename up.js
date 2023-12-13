@@ -5,3 +5,10 @@ const typed = new Typed('.com', {
     backDelay:1000,
     loop:true
 } );
+const hamburger = document.querySelector('.hamburger');
+const navList = document.querySelector('nav ul');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navList.classList.toggle('active');
+})
