@@ -13,6 +13,7 @@
   border: 5px solid var(--ring-color);
   box-shadow: 0 0 80px var(--ring-color);
   transition: 0.3s ease;
+  padding: 5px;
 }
 
 #community-work:hover{
@@ -179,7 +180,7 @@ body {
   }
 
   #community-work{
-    width: 350px;
+    width: 345px;
   }
 
   .home-info{
