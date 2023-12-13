@@ -13,3 +13,5 @@ const typed = new Typed('.multiple', {
     backDelay:1000,
     loop:true
 } );
+
+

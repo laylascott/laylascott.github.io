@@ -1,89 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ut Prosim</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="up.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ut Prosim</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="up.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+    rel="stylesheet">
+
+
 </head>
+
 <body>
-    <div class="header">
-        <h1>Layla Scott</h1>
-        <img src="icons/menu.png" id="menu">
-        <div class="nav">
-            <ul class="hidden"> 
-                <li ><a href="index">About Me</a></li>
-                <li class="active"><a href="ut-prosim">Ut Prosim</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Resume</a></li>
-            </ul>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="#"><span>Layla</span> Scott</a>
         </div>
-        
+        <ul>
+          <li><a href="index.html">About Me</a></li>
+          <li><a class="active" href="#">Ut Prosim</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a href="">Misc</a></li>
+        </ul>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="home-info">
+        <div class="left">
+          <h1>Ut Prosim</h1>
+          <h4><span class="com"></span></h4>
+          <p>'Ut Prosim' is a motto at Virginia Tech which translates from latin to mean 'That I May Serve'.
+            This page contains information on communities I am involved in and ways in which I have served the
+            communities nearest to my heart.
+          </p>
+          <div class="btn">
+            <a href="#timeline">
+              <button>
+                Learn More <span class="arr">&#8594;</span>
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div class="right">
+          <img src="assets/images/community-work.png" id="community-work">
+        </div>
+      </div>
     </div>
 
-    <hr>
-    <div class="row">
-        <div class="column-left">
-            <img src="icons/community-work.png" id="cw"> <br>
-            
-            
-        </div>
-        <div class="column-right">
-            <h2>Community Involvement</h2>
-            <p>
-                The motto of Virginia Tech, "Ut Prosim" translates from Latin to "That I May Serve". It reflects our belief in serving and contributing to the community. 
-                Here, you'll find information about my involvement in and service to various communities.
-            </p>
+    <div class="timeline">
+      <div class="cnt lft">
+        <div class="content">
+          <h2>2017</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
         </div>
       </div>
-    
-      <div class="timeline">
-        <div class="container left">
-            <div class="content">
-                <h2 class="h">Blue Ridge Literacy</h2>
-                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-              </div>
+      <div class="cnt rght">
+        <div class="content">
+          <h2>2016</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
         </div>
-        <div class="container right">
-          <div class="content">
-            <h2 class="h">Peer Mentoring</h2>
-            <p>I am a peer mentor where I give advice to frehsman engineering students to ease their transistion to college.</p>
-          </div>
-        </div>
-        <div class="container left">
-          
-          <div class="content">
-            <h2 class="h">Society of Women Engineers</h2>
-            <p>In this community I attend meetings to be surrounded by other like minded women in my field. I also gave a talk to young girls who are aspringing STEM students about what it is like to be a Computer Scientist, as  part of the Community Outreach Commitee</p>
-          </div>
-        </div>
-        
       </div>
-
-      <div class="footer">
-        <hr>
+      <div class="cnt lft">
+        <div class="content">
+          <h2>2015</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
       </div>
+      <div class="cnt rght">
+        <div class="content">
+          <h2>2012</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="cnt lft">
+        <div class="content">
+          <h2>2011</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="cnt rght">
+        <div class="content">
+          <h2>2007</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var menuIcon = document.getElementById('menu');
-            var nav = document.querySelector('.nav ul');
-    
-            menuIcon.addEventListener('click', function() {
-                // Toggle the 'show' class on the navigation menu
-                nav.classList.toggle('show');
-            });
-        });
-    </script>
 
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="up.js"></script>
 </body>
+
 </html>
