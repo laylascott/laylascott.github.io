@@ -4,7 +4,7 @@
   --bg-color: #090316;
   --white: #fff;
   --black: #000;
-  --mob-color: #9a88c2;
+  --mob-color: #B840D1;
   --para-text: #c3c3c3;
 }
  #community-work{
@@ -48,10 +48,13 @@ body {
 }
 
 .timeline p{
-  color: var(--para-text);
+  color: var(--bg-color);
+  font-family: 'Cairo', sans-serif;
 }
 .timeline h2{
-  color: var(--white);
+  color: var(--bg-color);
+  font-family: 'Josefin Sans', sans-serif;
+  padding-bottom: 10px;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -71,7 +74,6 @@ body {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  box-shadow: 8px var(--ring-color);
   width: 50%;
 }
 
@@ -82,8 +84,8 @@ body {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: var(--white);
-  border: 4px solid var(--text-color);
+  background-color: var(--bg-color);
+  border: 4px solid var(--white);
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -111,7 +113,6 @@ body {
   border: medium solid var(--mob-color);
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent var(--mob-color);
-  box-shadow: 8px var(--ring-color);
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -123,9 +124,9 @@ body {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid var(--mob-color);
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent var(--mob-color) transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -137,7 +138,7 @@ body {
 .content {
   padding: 20px 30px;
   background-color: var(--mob-color);
-  box-shadow: 0 0 30px var(--ring-color);
+  box-shadow: 0 0 30px var(--text-color);
   position: relative;
   border-radius: 6px;
 }
@@ -159,9 +160,9 @@ body {
   /* Make sure that all arrows are pointing leftwards */
   .cnt::before {
   left: 60px;
-  border: medium solid white;
+  border: medium solid var(--mob-color);
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent var(--mob-color) transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
