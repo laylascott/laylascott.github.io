@@ -9,7 +9,6 @@
   }
   
   .home-info{
-    padding-top: 100px;
     padding-bottom: 25%;
   }
   
@@ -21,5 +20,15 @@
   .btn button:hover .arr {
     display: inline;
   }
+
+  body{
+    background-color: var(--bg-color);
+  }
   
+@media screen and (max-width: 700px) {
+    .right .profile{
+        margin-top: -100px;
+    }
+}
+    
 
