@@ -25,29 +25,28 @@
 body {
   background-color: var(--bg-color);
 }
-
 .content {
   max-width: 1250px;
   width: 100%;
   margin: 0 auto;
   
 }
-
-h3 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  letter-spacing: 0.5px;
-  color: var(--white);
-  border-radius: 25px;
-  font-family: 'Josefin Sans', sans-serif;
+.content .mobile-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-app .left{
+  flex: 1;
+}
+.mobile-app .right{
+  flex: 1;
+}
+a{
+  color: #000;
 }
 
-h1 {
-  font-size: 4.5rem;
-  color: var(--white);
-  margin: 10px 0;
-  font-family: 'Josefin Sans', sans-serif;
-}
+
 
 h4 {
   color: var(--white);
@@ -56,28 +55,44 @@ h4 {
   margin-bottom: 20px;
   font-family: 'Josefin Sans', sans-serif;
 }
-p{
-  width: 90%;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 25px;
-  color: var(--para-text);
-  mask-border: 50px;
-  margin-bottom: 15px;
-  text-align: justify;
-  font-family: 'Cairo', sans-serif;
-}
+
 ul{
-  list-style:circle;
+  list-style:none;
   color: var(--para-text);
   margin-left: 50px;
   margin-top: -12px;
   font-family: 'Cairo', sans-serif;
 }
 
-.mobile-app{
-  
+.tech-badge:hover {
+  transform: translateY(-5px);
 }
+.badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  font-family: 'Cairo', sans-serif;
+  font-size: 15px;
+}
+
+.tech-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: var(--mob-color);
+  box-shadow: 0 0 30px var(--text-color);
+  border-radius: 4px;
+  margin: 5px;
+  transition: transform 0.3s ease;
+}
+
+.tech-badge img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
 
 @media screen and (max-width: 700px) {
   .right .profile {
@@ -89,47 +104,23 @@ ul{
   }
 }
 
-
 /* MEDIA SCREEN */
-@media screen and (max-width: 1280px) {
-  h1 {
-    font-size: 4rem;
+@media screen and (max-width: 1280px){
+
+  .content{
+      padding: 150px 50px;
+      z-index: auto;
   }
 
-}
-
-
-
-@media screen and (max-width: 767px) {
-  h3 {
-    font-size: 2rem;
+  /* Home */
+  .content{
+      position: relative;
+      padding: 50px;
+      height: 100%;
   }
 
-  h1 {
-    font-size: 3rem;
-  }
-
-  h4 {
-    font-size: 1.8rem;
-  }
-  ul{
-    margin-left: 20px;
-  }
-
-}
-
-@media screen and (max-width: 567px) {
-
-  h3 {
-    font-size: 1.8rem;
-  }
-
-  h1 {
-    font-size: 2.8rem;
-  }
-
-  h4 {
-    font-size: 1.6rem;
+  .mobile-app{
+      flex-direction: column;
   }
 
 }
