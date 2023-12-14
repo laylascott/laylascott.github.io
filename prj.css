@@ -107,15 +107,10 @@ ul{
 /* MEDIA SCREEN */
 @media screen and (max-width: 1280px){
 
-  .content{
-      padding: 150px 50px;
-      z-index: auto;
-  }
 
   /* Home */
   .content{
       position: relative;
-      padding: 50px;
       height: 100%;
   }
 
