@@ -1,0 +1,25 @@
+:root {
+    --text-color: #be25e3;
+    --ring-color: #5F25E3;
+    --bg-color: #090316;
+    --white: #fff;
+    --black: #000;
+    --mob-color: #B840D1;
+    --para-text: #c3c3c3;
+  }
+  
+  .home-info{
+    padding-top: 100px;
+    padding-bottom: 25%;
+  }
+  
+  .arr {
+    display: none;
+    margin-left: 20px; /* Adjust as needed */
+  }
+  
+  .btn button:hover .arr {
+    display: inline;
+  }
+  
+
