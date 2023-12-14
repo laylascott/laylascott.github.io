@@ -30,7 +30,7 @@ body {
   max-width: 1250px;
   width: 100%;
   margin: 0 auto;
-  font-family: 'Josefin Sans', sans-serif;
+  
 }
 
 h3 {
@@ -39,12 +39,14 @@ h3 {
   letter-spacing: 0.5px;
   color: var(--white);
   border-radius: 25px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 h1 {
   font-size: 4.5rem;
   color: var(--white);
   margin: 10px 0;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 h4 {
@@ -52,6 +54,29 @@ h4 {
   font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+p{
+  width: 90%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: var(--para-text);
+  mask-border: 50px;
+  margin-bottom: 15px;
+  text-align: justify;
+  font-family: 'Cairo', sans-serif;
+}
+ul{
+  list-style:circle;
+  color: var(--para-text);
+  margin-left: 50px;
+  margin-top: -12px;
+  font-family: 'Cairo', sans-serif;
+}
+
+.mobile-app{
+  
 }
 
 @media screen and (max-width: 700px) {
@@ -86,6 +111,9 @@ h4 {
 
   h4 {
     font-size: 1.8rem;
+  }
+  ul{
+    margin-left: 20px;
   }
 
 }
