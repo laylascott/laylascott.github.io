@@ -355,7 +355,7 @@ p a{
         font-size: 15px;
         padding: 10px 20px;
     }
-    .right .profile img{
+    .right .profile img, #video{
         width: 300px;
         height: auto;
     }
