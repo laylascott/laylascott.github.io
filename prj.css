@@ -105,6 +105,10 @@ ul {
   transition: 0.3s ease;
 }
 
+#apple-download{
+  width: 150px;
+}
+
 @media screen and (max-width: 700px) {
   .right .profile {
     margin-top: -50px;
@@ -117,6 +121,10 @@ ul {
   #video{
     width: 300px;
     padding-bottom: 25%;
+  }
+  #apple-download{
+    width: 120px;
+    margin-bottom: 20px;
   }
 
 }
