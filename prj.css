@@ -47,7 +47,7 @@ body {
   flex: 1;
 }
 
-a {
+.btn a {
   color: #000;
 }
 
@@ -61,7 +61,7 @@ h4 {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-ul {
+.left ul {
   list-style: none;
   color: var(--para-text);
   margin-left: 50px;
