@@ -18,7 +18,7 @@ html {
     --para-text: #c3c3c3;
 }
 
-.container {
+.header {
     max-width: 1250px;
     width: 100%;
     margin: 0 auto;
@@ -29,7 +29,7 @@ nav ul li a.active{
     color: var(--text-color);
 }
 
-header {
+.header {
     background: var(--bg-color);
     height: 90px;
     display: flex;
@@ -43,19 +43,9 @@ nav {
     justify-content: space-between;
 }
 
-nav .logo {
+nav img .logo {
     z-index: 1;
-}
-
-nav .logo a {
-    text-decoration: none;
-    font-size: 32px;
-    font-weight: 600;
-    color: var(--white);
-}
-
-nav .logo a span {
-    color: var(--text-color);
+    height: 20px;
 }
 
 nav ul {
@@ -116,7 +106,6 @@ nav .hamburger.active::after {
 
 nav .hamburger.active .bar {
     opacity: 0;
-
 }
 
 /* Home Section */
