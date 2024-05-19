@@ -47,9 +47,6 @@ body {
   flex: 1;
 }
 
-.btn a {
-  color: #000;
-}
 
 
 
@@ -86,11 +83,12 @@ h4 {
   display: inline-flex;
   align-items: center;
   padding: 5px 10px;
-  background-color: var(--mob-color);
+  background: var(--text-color);
   box-shadow: 0 0 30px var(--text-color);
   border-radius: 4px;
   margin: 5px;
   transition: transform 0.3s ease;
+  color: #000;
 }
 
 .tech-badge img {
