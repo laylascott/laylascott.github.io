@@ -18,7 +18,7 @@ html {
     --para-text: #c3c3c3;
 }
 
-.header, .container {
+.header, .container, .content {
     max-width: 1250px;
     width: 100%;
     margin: 0 auto;
@@ -172,7 +172,7 @@ p a{
     color: var(--para-text);
 }
 
-.left p{
+.left p, pre{
     width: 90%;
     font-size: 16px;
     font-weight: 400;
