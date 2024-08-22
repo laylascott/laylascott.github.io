@@ -97,6 +97,11 @@ img{
     width: 500px;
     border-radius: 30px;
 }
+#tridium {
+    width: 250px;  /* Adjust the width as needed */
+    height: auto;  /* Maintain aspect ratio */
+    padding-bottom: 1.5em;
+}
 .desktop{
     display: block;
 }
@@ -122,6 +127,9 @@ img{
     }
     img{
         width: 400px;
+    }
+    #tridium{
+        margin-left: -1.5em;
     }
      .desktop{
         display: none;
