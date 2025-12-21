@@ -177,11 +177,12 @@ export default function GiftCardPage() {
             {/* RIGHT */}
             <div className="col-lg-7 p-4 p-md-5 bg-body-tertiary">
               <div className="d-flex align-items-center justify-content-between">
-                <h2 className="h4 fw-bold mb-0">Your Library & Card</h2>
+                <h2 className="h4 fw-bold mb-0">Library Information</h2>
                 <span className="badge text-bg-secondary">Copy + Paste</span>
               </div>
+              <p className="fw-light fs-s mt-3">Hoopla will neeed these details to create your account.</p>
 
-              <div className="row g-3 mt-3">
+              <div className="row g-3">
                 {/* Library */}
                 <div className="col-12">
                   <div className="p-3 p-md-4 rounded-4 bg-white border shadow-sm">
@@ -213,9 +214,30 @@ export default function GiftCardPage() {
                         <i className="bi bi-copy fs-6 fs-md-5" />
                       </button>
                     </div>
+                  </div>
+                </div>
 
-                    <div className="text-secondary small mt-2">
-                      Paste this when Hoopla asks for your card number.
+                <div className="col-12">
+                  <div className="p-3 p-md-4 rounded-4 bg-white border shadow-sm">
+                    <div className="text-secondary small mb-1">
+                      PIN number
+                    </div>
+
+                    <div className="d-flex align-items-center gap-3">
+                      <div className="font-monospace fw-semibold fs-4 flex-grow-1">
+                        {gift.pin}
+                      </div>
+
+                      <button
+                        className="icon-copy-btn"
+                        type="button"
+                        onClick={() => onCopy("Card number", gift.card)}
+                        disabled={!gift.card}
+                        aria-label="Copy card number"
+                        title="Copy"
+                      >
+                        <i className="bi bi-copy fs-6 fs-md-5" />
+                      </button>
                     </div>
                   </div>
                 </div>
