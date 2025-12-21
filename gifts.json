@@ -2,12 +2,14 @@
     "krista": {
       "name": "Krista",
       "library": "Lynchburg Public Library",
-      "card": "21222005012345"
+      "card": "21222005012345",
+      "pin": "1234"
     },
     "riley": {
       "name": "Riley",
       "library": "Lynchburg Public Library",
-      "card": "9988776655"
+      "card": "9988776655",
+      "pin": "1234"
     }
   }
   
