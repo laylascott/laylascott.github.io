@@ -33,7 +33,7 @@ const dog = {
     sex: "Male",
     coat: "Long",
     color: "Black",
-    microchipped: false,
+    microchipped: true,
 
     // Personality + needs
     personalityTags: ["Cuddly", "Happy-go-lucky", "Food-motivated", "People-lover"],
@@ -82,7 +82,7 @@ const dog = {
 
     // Adoption logistics
     adoptionFee: "$350",
-    includes: ["Neuter", "Vaccines", "Heartworm test", "Prevention"],
+    includes: ["Neuter", "Vaccines", "Heartworm test", "Microchip", "Prevention"],
     meetAndGreet: "Meet-and-greets available weekends + some weekday evenings.",
     applyUrl: "#", // link to your application page
     contact: {
